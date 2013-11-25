@@ -4,8 +4,8 @@ require 'twitter'
 #### Get your twitter keys & secrets:
 #### https://dev.twitter.com/docs/auth/tokens-devtwittercom
 twitter = Twitter::REST::Client.new do |config|
-  config.consumer_key = 'YOUR_CONSUMER_KEY'
-  config.consumer_secret = 'YOUR_CONSUMER_SECRET'
+  config.consumer_key = 'f03cDb8tO3XNt7RZFyHLAg'
+  config.consumer_secret = '3eNaeKwe7u1xNyFG4DDYayc80HpmbDUtpTUm5Y1wNY'
   config.oauth_token = 'YOUR_OAUTH_TOKEN'
   config.oauth_token_secret = 'YOUR_OAUTH_SECRET'
 end
